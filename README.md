@@ -18,7 +18,7 @@ Create pod with db2
     db2start
     exit
     exit
-    kubectl port-forward db2 50000 50000
+    kubectl port-forward db2 50000:50000
 
 Now it is possible to use any jdbc client to contact localhost
 port 50000 with user db2inst1 and password changeit. I am
